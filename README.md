@@ -16,6 +16,7 @@ The gestures are continuously monitored by the webcam mounted on the TV. Each ge
 
 ## Understanding the Dataset
 The training data consists of a few hundred videos categorised into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images). These videos have been recorded by various people performing one of the five gestures in front of a webcam - similar to what the smart TV will use.
+
 Our task is to train different models on the 'train' folder to predict the action performed in each sequence or video and which performs well on the 'val' folder as well.  
 
 Dataset available @ https://drive.google.com/drive/folders/1rU_r0r4SStCiICTEslgjRrmNFAhx_-ON
