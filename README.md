@@ -25,16 +25,18 @@ We will be using two types of architectures for analysing videos using deep lear
 1.	CNN + RNN architecture 
 2.	3D Convolutional Neural Networks (Conv3D)
 
-Data pre-processing 
+### Data pre-processing 
 1.	Deciding on number of images to be taken per video/sequence
 2.	Resizing and cropping the images
 3.	Normalizing the images
 
-Data Generators 
+### Data Generators
 In this project, we have written our own batch data generator. After iterating over the chosen batch size, we have iterated over the remaining data points which were left after full batches
 
 ## Technologies Used
 - Keras
 - TensorFlow
 - Python
-- Pandas, Numpy, Matplotlib,
+- Pandas, Numpy, Matplotlib
+
+## Conclusion
